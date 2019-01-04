@@ -31,13 +31,22 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull ViewHolder viewHolder, final int i) {
         viewHolder.book_title.setText(list.get(i).getTitle());
         viewHolder.cover_book.setImageResource(list.get(i).getCover());
         viewHolder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent intent = new Intent(mContext, BookActivity.class);
+                //passing data to the book activity
+
+                intent.putExtra("Title", list.get(i).getTitle());
+                intent.putExtra("Description", list.get(i).getDescription());
+                intent.putExtra("Image", list.get(i).getCover());
+                intent.putExtra("Category", list.get(i).getCategory());
+
+                //start activity
                 mContext.startActivity(intent);
             }
         });

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/new_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:background="#999"
+        android:scaleType="centerCrop" />
+
+    <EditText
+        android:id="@+id/new_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/new_image"
+        android:hint="Title of Book"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/new_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/new_title"
+        android:hint="Category"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/new_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/new_category"
+        android:hint="Description"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/new_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/new_description"
+        android:hint="URL"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@color/colorAccent"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_below="@+id/new_url" />
+
+</RelativeLayout>
+
