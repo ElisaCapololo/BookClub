@@ -54,7 +54,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         android:layout_below="@+id/new_description"
-        android:hint="URL"
+        android:hint="Book Direction"
         android:paddingLeft="10dp"/>
 
     <Button
