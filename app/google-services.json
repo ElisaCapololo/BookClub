@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "967538718919",
+    "firebase_url": "https://bookclub1-19b63.firebaseio.com",
+    "project_id": "bookclub1-19b63",
+    "storage_bucket": "bookclub1-19b63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967538718919:android:434a8c6eefad667d",
+        "android_client_info": {
+          "package_name": "com.elisacapololo.clubdelivros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967538718919-qg73v6nqq3truou3eq8ad1bnfvqhbhef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7fmef-lOOaaRsbtWkEt0-WySLZF6qWrI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
